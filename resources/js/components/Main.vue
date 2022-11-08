@@ -315,6 +315,7 @@ export default {
             return Math.abs(dayjs().diff(this.deadline,'hours')/24)
         },
         minutesLeft(){
+
             return Math.abs(dayjs().diff(this.deadline,'minute')/60/24)
         }
     }
